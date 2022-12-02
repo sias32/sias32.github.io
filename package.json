@@ -13,7 +13,7 @@
     "concurrently": "^7.6.0",
     "eslint": "^8.28.0",
     "global": "^4.4.0",
-    "pug": "^3.0.1",
+    "pug": "^3.0.2",
     "pug-code-gen": "^3.0.2",
     "@anduh/pug-cli": "^1.0.0-alpha8"
   },
