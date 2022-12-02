@@ -5,8 +5,8 @@
   "scripts": {
     "test": "console.log('test') && exit 1",
     "start": "concurrently \"yarn run sync\" \"yarn run pug\"",
-    "pug": "pug ./www/static/pug/ --pretty --watch --out ./www/",
-    "sync": "browser-sync start -s \"./www/\" -f \"./www/static/*/*.*,./*.html\""
+    "pug": "pug ./docs/static/pug/ --pretty --watch --out ./docs/",
+    "sync": "browser-sync start -s \"./docs/\" -f \"./docs/static/*/*.*,./*.html\""
   },
   "dependencies": {
     "browser-sync": "^2.27.10",
